@@ -1,4 +1,4 @@
-# Skills-Check-1-Phase-2
+# Skills-Check-1-Part-2
 
 ## Instructions
 
