@@ -9,9 +9,12 @@
 //dragonMapper should return the the new array. You should
 //use the built-in array method .map
   
-  //Code here
-
-
+function dragonMapper (arr) {
+  let newArr = arr.map(el => {
+    return el + '...here be dragons'
+  }, []) 
+  return newArr
+}
 
 //////////////////PROBLEM 2////////////////////
 
@@ -20,8 +23,12 @@
 //does NOT have the key favoriteCookie.
 //cookieLoversOnly should return the filtered array.
   
-  //Code here
-
+// let cookieLoversOnly = (arr) => {
+//   let newArr = arr.filter((el, i) => {
+//     return el.i === 'favoriteCookie'
+//   }, [])
+//   return newArr
+// }
 
 //////////////////PROBLEM 3////////////////////
 
@@ -33,10 +40,7 @@
 //the callback function as an argument every time it is invoked.
 //Hint: there is an array method for this.
 
-
-  //Code here
-
-
+let changeValue = (arr, cb) => {arr.forEach(el => cb(el))}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -46,8 +50,9 @@
 //of multiplying all the elements together)
 //Return the product.
   
-  //Code here
-
+let findProduct = (arr) => {
+  return arr.reduce((acc, el) => acc *= el)
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -63,9 +68,9 @@
 // character at index 2 of "wide": "d"
 // cipherize will return: "d"
 
-  //Code here
-
-
+let cipherize = (arr, string) => {
+  
+}
 
 //////////////////PROBLEM 6////////////////////
 
